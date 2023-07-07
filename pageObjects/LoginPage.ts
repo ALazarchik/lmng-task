@@ -7,7 +7,7 @@ export class LoginPage {
     loginButton: Locator;
     loginError: Locator;
 
-    constructor(page) {
+    constructor(page: Page) {
         this.page = page;
         this.emailInput = page.locator('[data-testid="login-email-input"]');
         this.passwordInput = page.locator('[data-testid="login-password-input"]');

@@ -3,7 +3,7 @@ import { Page } from "@playwright/test";
 export class StartPage {
     page: Page;
 
-    constructor(page) {
+    constructor(page: Page) {
         this.page = page;
     }
 
